@@ -1,0 +1,55 @@
+/* Centered layout */
+
+body {
+	font-size: 10px;
+}
+main {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #5D737E;
+}
+header {
+	width: 100%;
+	height: 100px;
+	background-color: #CEE5F2;
+}
+nav{
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 	2em;
+}
+nav > ul > li {
+	list-style: none;
+	display: inline;
+	padding-left: 0 30px;
+	border: 1px solid black;
+	background-color: #ABC8C0;
+}
+
+li > a {
+	text-decoration: none;
+}
+li > a:hover {
+	color: #8D94BA;
+}
+nav > ul > li:hover {
+
+	background-color: #CEE5F2;
+}
+
+section {
+	height: 80vh;
+
+}
+h1 {
+	font-size: 4em;
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	font-size: 1.2em;
+	font-family: 'Roboto Slab', serif;
+}
